@@ -1,6 +1,8 @@
-import os 
-path1="os.environ['HOMEPATH']\\Desktop"
-print path1
+import os
+hompath=os.environ['HOMEPATH']
+fpath = os.path.join(hompath,'Desktop','GIT','PY_local','9.test_files' )
+file1=  os.path.join(fpath,'fruits.txt')
+
 
 
 address = ["Flat Floor Street", "18", "New York"]
@@ -11,13 +13,13 @@ print(address[0], address[1],address[2])
 pin = int(input("Enter your pin: "))
 
 def find_in_file(f):    
-    myfile = open("sample.txt")
+    myfile = open(file1)
     fruits = myfile.read()
     fruits = fruits.splitlines()
     if f in fruits:
         return "That fruit is in the list."
     else:
-        return "No such fruit found!"
+        return "NEED to order FRUIT !"
             
 if pin in pins.values():
     fruit = input("Enter fruit: ")
