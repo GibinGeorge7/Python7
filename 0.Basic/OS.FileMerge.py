@@ -7,14 +7,6 @@ from datetime import datetime
 
 
 
-
-path1=os.getcwd()
-#print (path1)
-path2 = os.path.join(path1,'test_files' )
-#print (file1)
-#change working directory
-os.chdir(path2)
-
 filenames = glob2.glob("file*")
 #print(filenames)
 

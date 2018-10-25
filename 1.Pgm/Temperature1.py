@@ -11,6 +11,7 @@ def c_to_f(c):
     else:
         f = c* 9/5 + 32
         return f
+
 for t in temperatures:
     var1=str((c_to_f(t)))
     print (var1)
