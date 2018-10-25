@@ -1,3 +1,8 @@
+import os 
+path1="os.environ['HOMEPATH']\\Desktop"
+print path1
+
+
 address = ["Flat Floor Street", "18", "New York"]
 pins = {"Mike":1234, "Joe":1111, "Jack":2222}
 
