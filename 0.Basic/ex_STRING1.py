@@ -1,8 +1,25 @@
 
+
+
+
+#string SLicing
+abc="string1"
+print(abc[1:-1])
+print(abc[1:-2])
+print(abc[:7])
+
+
+#update string
+abc="string1"+"python"
+print (abc)
+
+
+
+'''''
 #replace string
 abc="this is a new house"
 print(abc.replace('NEW' , 'old' ,5))
-
+'''''
 
 
 #find length of a string
