@@ -1,4 +1,10 @@
 
+
+#select random item in list
+import random
+color_list = ['Red', 'Blue', 'Green', 'White', 'Black']
+print(random.choice(color_list))
+
 #merge two list
 '''''
 list1=[10,20,30]

@@ -1,0 +1,3 @@
+CAT,HINT:THIS is a animal with fur!!
+DOG,HINT:THIS is a animal who is called "MAN'S BEST FRIEND"!!
+CAKE,HINT:THIS is where birthday party candles are placed!!
