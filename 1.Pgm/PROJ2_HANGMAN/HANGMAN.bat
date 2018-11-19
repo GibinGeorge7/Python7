@@ -1,0 +1,2 @@
+@py hangman.py %*
+@pause

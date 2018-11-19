@@ -8,6 +8,8 @@ newstring=fpart+lpart
 print("NEW STRING : %s "%(newstring))
 """""
 
+
+"""""
 #FIND INDEX  of occuranes of  LETTER in a string
 
 def string_index(word,letter):
@@ -24,3 +26,33 @@ def string_index(word,letter):
 word=" how are mr walt wikey"
 letter="w"
 print(string_index(word,letter))
+"""""
+
+#replace string letters in positions mentioned .
+
+#relative letter position /index
+strloc={1,9}
+#string to be worked on
+tempstring="XXXXXXX"
+#letter to replace with
+letter="E"
+
+def string_replace(tempstring,strloc,letter):
+    for i in strloc:
+        if i==0:
+            strr = tempstring[i+1:]
+            tempstring = letter + strr
+            print(tempstring)
+
+        elif i==1:
+            strl = tempstring[0]
+            strr = tempstring[i+1:]
+            tempstring = strl+letter + strr
+            print(tempstring)
+        else:
+            strl = tempstring[:i ]
+            strr = tempstring[i+1:]
+            tempstring = strl + letter + strr
+            print(tempstring)
+
+string_replace(tempstring,strloc,letter)
